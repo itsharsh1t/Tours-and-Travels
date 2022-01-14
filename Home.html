@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+</head>
+<body id="page1">
+    <div class="extra">
+        <div class="main">
+            <!-- header -->
+            <header>
+                <div class="wrapper">
+                    <h1><a href="Home.html" id="logo">Around the World</a></h1>
+                    <div class="right">
+                        <div class="wrapper">
+                            <form id="search" action="" method="post">
+                                <div class="bg">
+                                    <input type="submit" class="submit" value="">
+                                    <input type="text" class="input">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="wrapper">
+                            <nav>
+                                <ul id="top_nav">
+                                    <li><a href="#">Register</a></li>
+                                    <li><a href="#">Log In</a></li>
+                                    <li><a href="#">Help</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <nav>
+                    <ul id="menu">
+                        <li><a href="Home.html" class="nav1">Home</a></li>
+                        <li><a href="About.html" class="nav2">About Us </a></li>
+                        <li><a href="Tours.html" class="nav3">Our Tours</a></li>
+                        <li><a href="Destinations.html" class="nav4">Destinations</a></li>
+                        <li class="end"><a href="Contacts.html" class="nav5">Contacts</a></li>
+                    </ul>
+                </nav>
+                <article class="col1">
+                    <ul class="tabs">
+                        <li><a href="#" class="active">Flight</a></li>
+                        <li><a href="#">Hotel</a></li>
+                        <li><a href="#">Car</a></li>
+                        <li class="end"><a href="#">Cruise</a></li>
+                    </ul>
+                    <div class="tabs_cont">
+                        <form id="form_1" action="" method="post">
+                            <div class="bg">
+                                <div class="wrapper">
+                                    <div class="radio">
+                                        <input type="radio" name="name1" checked>Round trip
+                                    </div>
+                                    <div class="radio"><input type="radio" name="name1">One way</div>
+                                </div>
+                                <a href="#">Multiple destinations</a>
+                                <div class="wrapper"><input type="text" class="input">From</div>
+                                <div class="wrapper"><input type="text" class="input">To</div>
+                                <div class="wrapper check_box"><input type="checkbox" checked><a href="#">Search nearby airports</a></div>
+                                <div class="wrapper"><input type="text" class="input input2" value="04/11/2010" onblur="if(this.value=='') this.value='04/11/2010'" onfocus="if(this.value =='04/11/2010' ) this.value=''">Depart (mm/dd/yy)</div>
+                                <div class="wrapper pad_bot1"><input type="text" class="input input2" value="04/11/2010" onblur="if(this.value=='') this.value='04/11/2010'" onfocus="if(this.value =='04/11/2010' ) this.value=''">Return  (mm/dd/yy)</div>
+                                <div class="wrapper">
+                                    <div class="radio"><input type="radio" name="name2" checked>Economy cabin</div>
+                                    <div class="radio end"><input type="radio" name="name2">Business</div>
+                                </div>
+                                <div class="wrapper pad_bot1">
+                                    <a href="#" class="button" onclick="document.getElementById('form_1').submit()">Search</a>
+                                    Audlts <select><option>1</option></select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </article>
+                <article class="col1 pad_left1">
+                    <div class="text">
+                        <img src="images/text1.jpg" alt="">
+                        <h2>The Best Offers</h2>
+                        <p>Twenty years from now you will be more disappointed by the things you didn’t do than by the ones you did do. So throw off the bowlines, sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.</p>
+                        <a href="#" class="button">Read More</a>
+                    </div>
+                </article>
+                <div class="img"><img src="images/img.jpg" alt=""></div>
+            </header>
+            <!-- / header -->
+            <!-- content -->
+            <section id="content">
+                <article class="col1">
+                    <h3>Hot Travel</h3>
+                    <div class="pad">
+                        <div class="wrapper under">
+                            <figure class="left marg_right1"><img src="images/page1_img1.jpg" alt=""></figure>
+                            <p class="pad_bot2"><strong>Italy<br>Holidays</strong></p>
+                            <p class="pad_bot2">The city of Venice, ranked many times as the most beautiful city in the world.</p>
+                            <a href="#" class="marker_1"></a>
+                        </div>
+                        <div class="wrapper under">
+                            <figure class="left marg_right1"><img src="images/page1_img2.jpg" alt=""></figure>
+                            <p class="pad_bot2"><strong>Philippines<br>Travel</strong></p>
+                            <p class="pad_bot2">The country is known for having its rich biodiversity as its main tourist attraction.</p>
+                            <a href="#" class="marker_1"></a>
+                        </div>
+                        <div class="wrapper">
+                            <figure class="left marg_right1"><img src="images/page1_img3.jpg" alt=""></figure>
+                            <p class="pad_bot2"><strong>Cruise<br>Holidays</strong></p>
+                            <p class="pad_bot2">Best adventure to enjoy with family!!</p>
+                            <a href="#" class="marker_1"></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col2 pad_left1">
+                    <h2>Popular Places</h2>
+                    <div class="wrapper under">
+                        <figure class="left marg_right1"><img src="images/page1_img4.jpg" alt=""></figure>
+                        <p class="pad_bot2"><strong>Hotel du Havre</strong></p>
+                        <p class="pad_bot2">Looking for a place to stay in Paris? Then look no further than Grand Hotel du Havre, a hotel that brings the best of Paris to your doorstep. Grand Hotel du Havre features 24 hour front desk, newspaper, and express check-in and check-out. Plus, guests can enjoy a lounge, which has made this a popular choice among travellers visiting Paris. Close to some of Paris' most popular landmarks, and they are all within walking distance of Grand Hotel du Havre. We’re sure you’ll enjoy your stay at Grand Hotel du Havre as you experience everything Paris has to offer.</p>
+                        <a href="#" class="marker_2"></a>
+                    </div>
+                    <div class="wrapper">
+                        <figure class="left marg_right1"><img src="images/page1_img5.jpg" alt=""></figure>
+                        <p class="pad_bot2"><strong>Hotel Vacance</strong></p>
+                        <p class="pad_bot2">Vacance Hotel is an excellent choice for travellers visiting Aguas de Lindoia, offering a charming environment alongside many helpful amenities designed to enhance your stay. For those interested in checking out popular landmarks while visiting Aguas de Lindoia, The rooms offer a flat screen TV, a minibar, and air conditioning, and getting online is possible, as free wifi is available, allowing you to rest and refresh with ease. Vacance Hotel features 24 hour front desk, a concierge, and a rooftop terrace. In addition, as a valued Vacance Hotel guest, you can enjoy a pool and free breakfast that are available on-site. Enjoy your stay in Aguas de Lindoia!</p>
+                        <a href="#" class="marker_2"></a>
+                    </div>
+                </article>
+            </section>
+            <!-- / content -->
+        </div>
+        <div class="block"></div>
+    </div>
+    <div class="body1">
+        <div class="main">
+            <!-- footer -->
+            <footer>
+                <a href="Home.html">Home Page</a> |
+                <a href="About.html">About Us</a> |
+                <a href="Tours.html">Our Tours</a> |
+                <a href="Destinations.html">Destinations</a> |
+                <a href="Contacts.html">Contact us</a><br />
+                <p>Website designed by Shobhit Deshwal</p><br>
+            </footer>
+            <!-- / footer -->
+        </div>
+    </div>
+    <script type="text/javascript">Cufon.now();</script>
+</body>
+</html>
